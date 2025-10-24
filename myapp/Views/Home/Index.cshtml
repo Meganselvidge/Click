@@ -5,14 +5,14 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Välkommen till vår webbapplikation!</p>
     
 </div>
 <h2>Counter</h2>
 
-<p>Current count: <strong id="count">@count</strong></p>
+<p>Current count is: <strong id="count">@count</strong></p>
 
 <form asp-action="Increment" method="post" class="mt-3">
     @Html.AntiForgeryToken()
-    <button type="submit" class="btn btn-primary">Click</button>
+    <button type="submit" class="btn btn-primary">Klicka</button>
 </form>
