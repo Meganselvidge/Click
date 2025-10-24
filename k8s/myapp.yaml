@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: myapp
-          image: meganselvidge/myapp:d1f04904a7ad432952041c827e631997d3464db7
+          image: meganselvidge/myapp:f6c279ecb6706eaeec08ba7ce0228811072489dd
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
